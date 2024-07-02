@@ -5,7 +5,7 @@
 //toggle 3 day forecast
 //accept a location to display the information for the supplied location
 
-const baseURL = "http://api.weatherapi.com/v1/";
+const baseURL = "https://api.weatherapi.com/v1/";
 const apiKey = "b2944cf156c5494f9ae223216240702"; //not secure
 
 $(document).ready(initListeners);

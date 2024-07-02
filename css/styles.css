@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100vh;
+  padding: 5%;
+}
+#app h1 {
+  text-align: center;
+}
+#app #weatherForm {
+  padding: 10px;
+}
+#app #weatherForm #locationId {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+#app #weatherForm #toggleForecast {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+#app #weatherForm #weatherBtn {
+  padding: 10px;
+  background: #dad3d3;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+#app #weatherForm #weatherBtn:hover {
+  border: 1px solid #000;
+}
+#app #weatherOutput {
+  padding: 10px;
+}
+#app #weatherOutput h2, #app #weatherOutput h3 {
+  margin-top: 10px;
+}
+#app #weatherOutput h3 {
+  margin-bottom: 5px;
+}
+#app #weatherOutput .forecastDay {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 7px;
+}
+
+/*# sourceMappingURL=styles.css.map */
